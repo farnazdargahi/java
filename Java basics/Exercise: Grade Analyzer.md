@@ -10,7 +10,7 @@ Write a Java program that:
 - That method calculates and prints:
   - Average grade  
   - Highest grade  
-  - Number of failing grades (below 60)  
+  - Number of failing grades (below 65)  
 
 ---
 
@@ -27,3 +27,5 @@ Write a Java program that:
    - Print the results
   
 ## Sample Run:
+
+    <img width="800" height="714" alt="carbon (19)" src="https://github.com/user-attachments/assets/778849dc-199e-4329-aab5-ddeae3f72f35" />
