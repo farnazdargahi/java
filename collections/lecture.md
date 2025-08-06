@@ -62,6 +62,7 @@ A LinkedList is one of several types that implement the List interface. The Link
 - If an index is specified, as in `authorList.add(0, "Butler");`, the element is inserted at the specified index, with the list element previously located at the specified index appearing after the inserted element.
 
 ### Example - Linked list
+#### Example 1
 
 ```java
 import java.util.LinkedList;
