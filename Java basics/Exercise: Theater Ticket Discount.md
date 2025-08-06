@@ -14,7 +14,9 @@ Write a program that:
 - Children under 12: **$8**
 - Seniors 65 or older: **$6**
 
+## Sample Input and Output
 
+<img width="200" height="170" alt="image" src="https://github.com/user-attachments/assets/fd3c1e64-bbd6-4484-8023-d4c92eca5959" />
 
 ```Java
 import java.util.Scanner;
