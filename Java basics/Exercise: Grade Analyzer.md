@@ -30,18 +30,21 @@ Write a Java program that:
 
 <img width="240" height="188" alt="image" src="https://github.com/user-attachments/assets/9eab49f2-bc5e-4f15-b80b-5aa81aad1727" />
 
+## Solution:
+
 ```java
+
 import java.util.Scanner;
 
 public class GradeAnalyzer {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Ask how many students
+        // Ask for the number of students
         System.out.print("Enter number of students: ");
         int numStudents = scanner.nextInt();
 
-        // Create array to store grades
+        // Create an array to store grades
         int[] grades = new int[numStudents];
 
         // Read grades from user
@@ -56,27 +59,32 @@ public class GradeAnalyzer {
         scanner.close();
     }
 
-    // Method to analyze grades
     public static void analyzeGrades(int[] grades) {
         int sum = 0;
         int highest = grades[0];
         int failingCount = 0;
 
-        for (int grade : grades) {
-            sum += grade;
-            if (grade > highest) {
-                highest = grade;
+        // Loop through the array
+        for (int i = 0; i < grades.length; i++) {
+            sum = sum + grades[i];  // add grade to sum
+
+            if (grades[i] > highest) {
+                highest = grades[i];  // update highest if needed
             }
-            if (grade < 60) {
-                failingCount++;
+
+            if (grades[i] < 60) {
+                failingCount = failingCount + 1;  // count failing grades
             }
         }
 
+        // Calculate average
         double average = (double) sum / grades.length;
 
         // Print results
-        System.out.println("\nAverage grade: " + average);
+        System.out.println();
+        System.out.println("Average grade: " + average);
         System.out.println("Highest grade: " + highest);
         System.out.println("Failing grades: " + failingCount);
     }
 }
+
