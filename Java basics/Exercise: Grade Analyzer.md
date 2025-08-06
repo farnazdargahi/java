@@ -23,9 +23,10 @@ Write a Java program that:
 5. In that method:
    - Calculate average  
    - Find highest grade  
-   - Count failing grades (`grade < 60`)  
+   - Count failing grades (`grade < 65`)  
    - Print the results
   
 ## Sample Run:
 
-    <img width="800" height="714" alt="carbon (19)" src="https://github.com/user-attachments/assets/778849dc-199e-4329-aab5-ddeae3f72f35" />
+<img width="398" height="313" alt="image" src="https://github.com/user-attachments/assets/9eab49f2-bc5e-4f15-b80b-5aa81aad1727" />
+
