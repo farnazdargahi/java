@@ -1,12 +1,18 @@
-Exercise: Theater Ticket Discount
+# Exercise: Theater Ticket Discount
 
-Write a program that asks the user for their age and calculates the ticket price based on the following rules:
+This is a simple Java program that calculates the price of a theater ticket based on the user's age.
 
-Standard ticket price: $12
-Under 12: $8 
-65 or older: $6 
+## Problem Description
 
+Write a program that:
 
+- Prompts the user to enter their age.
+- Calculates the ticket price based on the following rules:
+
+### Pricing Rules:
+- Standard ticket price: **$12**
+- Children under 12: **$8**
+- Seniors 65 or older: **$6**
 
 
 
