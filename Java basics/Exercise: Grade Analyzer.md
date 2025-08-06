@@ -28,5 +28,6 @@ Write a Java program that:
   
 ## Sample Run:
 
-<img width="398" height="313" alt="image" src="https://github.com/user-attachments/assets/9eab49f2-bc5e-4f15-b80b-5aa81aad1727" />
+<img width="240" height="188" alt="image" src="https://github.com/user-attachments/assets/9eab49f2-bc5e-4f15-b80b-5aa81aad1727" />
+
 
