@@ -17,6 +17,7 @@ Write a program that:
 ## Sample Input and Output
 
 <img width="200" height="170" alt="image" src="https://github.com/user-attachments/assets/fd3c1e64-bbd6-4484-8023-d4c92eca5959" />
+<br>
 
 ```Java
 import java.util.Scanner;
