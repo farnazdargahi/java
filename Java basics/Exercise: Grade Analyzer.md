@@ -1,5 +1,5 @@
 
-# Java Class Exercise: Grade Analyzer
+# Exercise: Grade Analyzer
 
 ## Objective
 
