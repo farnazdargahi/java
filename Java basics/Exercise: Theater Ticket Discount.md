@@ -6,7 +6,7 @@ Standard ticket price: $12
 Under 12: $8 
 65 or older: $6 
 
-<img width="340" height="279" alt="image" src="https://github.com/user-attachments/assets/9347e347-0382-4c62-a168-134e7641138f" />
+
 
 
 
