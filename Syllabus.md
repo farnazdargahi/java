@@ -34,10 +34,6 @@ information sciences or anyone interested in learning more about the Java progra
 
 
 
-## [Important dates/deadline](https://github.com/d-khan/sdccd/blob/main/dates-deadline.md)
-
-## [Instructor communication policy](https://github.com/d-khan/sdccd/blob/main/communication.md)
-
 ## Course schedule
 
 | Week | Week Commencing | Topics                                   | Hands-on Activities                                                                 |
@@ -88,7 +84,10 @@ I would recommend that you follow my notes and resources provided on the course 
 ## Important dates
 Please visit the [Academic Semester Calendars and Key Dates](https://www.sdccd.edu/students/dates-and-deadlines/index.aspx) to learn more about the deadlines.
 
-## [Late/due work](https://github.com/d-khan/sdccd/blob/main/late_work.md)
+## Late/due work
+Please submit your coursework by the due date. The assignment deadlines are posted in the syllabus and also shown in Canvas. 
+Some assignments may require more time to complete than others. It's your responsibility to allocate the time needed to finish your work. Be sure to begin your work before the due date. 
+The late work is deducted 25% when submitted within 24 hours past the due date. Any work submitted past 24 hours of the due date will be graded 0.
 
 ## [Attendance/Absences](https://github.com/d-khan/sdccd/blob/main/attendance.md)
 
