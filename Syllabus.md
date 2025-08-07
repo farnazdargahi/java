@@ -40,12 +40,12 @@ information sciences or anyone interested in learning more about the Java progra
 
 |Week|<div style="width:75px">Week commence from Monday </div>|Topics | Hands-on activities | Deadlines|
 |-|--|--|---|----|
-|1  |3 Feb  |Java lang review | Apply arrays, loops, data types, and methods | 9 Feb |
-|2  |10 Feb  |Object and classes | Write code based on OOP principles | 16 Feb |
-|3  |17 Feb |Memory management | Disect code and identify how stacks, heaps, and garbage collections are utilized | 23 Feb |
-|4  |24 Feb |Input and output | Perform input/output operation on a text file using Java | 2 Mar |
-|   |        |__Quiz 1 on Thu 27 Feb at 11:20 am__| |
-|5  |3 Mar |Inheritance | Demonstrate inheritance concepts and write a code to solve a task and identify when and when not to use inheritance| 9 Mar |
+|1  |25 Aug  |Java lang review | Apply arrays, loops, data types, and methods | 9 Feb |
+|2  |1 Sept  |Object and classes | Write code based on OOP principles | 16 Feb |
+|3  |8 Sept |Memory management | Disect code and identify how stacks, heaps, and garbage collections are utilized | 23 Feb |
+|4  |15 Sept |Input and output | Perform input/output operation on a text file using Java | 2 Mar |
+|   |        |__Quiz 1__| |
+|5  |22 Sept |Inheritance | Demonstrate inheritance concepts and write a code to solve a task and identify when and when not to use inheritance| 9 Mar |
 |6  |10 Mar  |Inheritance (contd.) | Hands-on activity (contd.) | 16 Mar|
 |7  |17 Mar |Exceptions| Solve a task with and without exceptions | 23 Mar|
 |   |        |__Quiz 2 on Thu 20 Mar at 11:20 am__| |
