@@ -99,9 +99,29 @@ Please submit your coursework by the due date. The assignment deadlines are post
 Some assignments may require more time to complete than others. It's your responsibility to allocate the time needed to finish your work. Be sure to begin your work before the due date. 
 The late work is deducted 25% when submitted within 24 hours past the due date. Any work submitted past 24 hours of the due date will be graded 0.
 
-## [Attendance/Absences](https://github.com/d-khan/sdccd/blob/main/attendance.md)
+## Attendance & Absences
 
-## [Accommodating Students with Disabilities](https://github.com/d-khan/sdccd/blob/main/dsps.md)
+Regular attendance in **in-person classes** is required. Failure to attend may result in being dropped or withdrawn from the course.
+
+- Students are responsible for officially dropping any class they no longer attend or participate in.  
+- Instructor may withdraw students after the add/drop deadline due to excessive absences.  
+- Students who are absent during the **first two weeks** of the course may be dropped by the instructor.  
+- Students who remain enrolled beyond the official **withdrawal deadline** (as listed in the class schedule) will receive a final evaluative letter grade: **A, B, C, D, F, P, or NP**.
+
+
+
+## Accommodating Students with Accessibility Needs
+
+Students with accessibility needs who may require academic accommodations are encouraged to contact me **as early as possible**. We will work together with the **Disability Support Programs and Services (DSPS)** office to arrange the appropriate accommodations for this course.
+
+> **DSPS Contact Information:**  
+> Location: K1 Student Services Building, Room K1-204  
+> Phone: (619) 388-7312  
+> Email: [miradsps@sdccd.edu](mailto:miradsps@sdccd.edu)  
+> Website: [www.sdmiramar.edu/dsps](https://www.sdmiramar.edu/dsps)
+
+To register or learn more about DSPS services, please visit their website or contact them directly.
+
 
 ## [Undocumented & Immigrant Student Services](https://github.com/d-khan/sdccd/blob/main/undocumented-immigration.md)
 
