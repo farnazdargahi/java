@@ -1,7 +1,7 @@
 # Syllabus (CISC-191 Intermediate Java Programming)
 
 ## Welcome to the course!
-My name is Dr Danish Khan and I am looking forward to starting this educational journey with each of you! Together, we will build a constructive and inclusive environment where everyone's ideas are welcomed and appreciated. Your contributions will greatly enrich our classroom community, and I am eager to learn more about each of you. Let’s focus on making this school year a valuable experience filled with growth, learning, and positive memories!
+My name is Dr Farnaz Dargahi and I am looking forward to starting this educational journey with each of you! Together, we will build a constructive and inclusive environment where everyone's ideas are welcomed and appreciated. Your contributions will greatly enrich our classroom community, and I am eager to learn more about each of you. Let’s focus on making this school year a valuable experience filled with growth, learning, and positive memories!
 
 > ___A person who never made a mistake never tried anything new.___ (Albert Einstein)
 
@@ -13,7 +13,11 @@ user interfaces (GUIs); recursion; concurrency; and generic collections and data
 linked lists, queues, and stacks. This course is intended for students majoring in computer and
 information sciences or anyone interested in learning more about the Java programming language.
 
-## [Student learning outcomes](https://github.com/d-khan/sdccd/blob/main/slos.md)
+## Student learning outcomes
+
+- Apply algorithmic and mathematical reasoning to solve a wide range of computational problems.
+- Analyze and evaluate alternative solutions to computing problems using a programming language.
+- Use current tools in computing practice such as Integrated Development Environments and Code Sharing platforms.
 
 ## Course information
 
@@ -27,7 +31,6 @@ information sciences or anyone interested in learning more about the Java progra
 | Professor                              | Dr. Farnaz Dargahi                                             |
 | Office Hours                           | Mon 12:30 PM – 2:30 PM ([Zoom](https://sdccd-edu.zoom.us/j/89694884444)) or in-person (Room M-107P)<br>Tue 12:30 PM – 2:30 PM ([Zoom](https://sdccd-edu.zoom.us/j/81215489501)) or in-person (Room M-107P) |
 | Contact                                | Room M-107P<br>Office Phone: 619-388-7152<br>Email: dkhan@sdccd.edu |
-
 
 
 
@@ -81,6 +84,9 @@ I would recommend that you follow my notes and resources provided on the course 
 |Hands-on exam|30|
 |Project|20|
 |Final exam|20|
+
+## Important dates
+Please visit the [Academic Semester Calendars and Key Dates](https://www.sdccd.edu/students/dates-and-deadlines/index.aspx) to learn more about the deadlines.
 
 ## [Late/due work](https://github.com/d-khan/sdccd/blob/main/late_work.md)
 
