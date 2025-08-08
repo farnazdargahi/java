@@ -37,24 +37,24 @@ information sciences or anyone interested in learning more about the Java progra
 ## Course schedule
 
 | Week | Week Commencing | Topics                                   | Hands-on Activities                                                                 |
-|------|------------------|-------------------------------------------|--------------------------------------------------------------------------------------|
-| 1    | 25 Aug           | Java language review                      | Apply arrays, loops, data types, and methods                                         |
-| 2    | 1 Sept           | Objects and classes                       | Write code based on OOP principles                                                   |
-| 3    | 8 Sept           | Memory management                         | Dissect code and identify how stacks, heaps, and garbage collection are utilized     |
-| 4    | 15 Sept          | Input and output, **Quiz 1**              | Perform input/output operations on a text file using Java                            |
-| 5    | 22 Sept          | Inheritance                               | Demonstrate inheritance concepts, solve tasks, and identify proper use cases         |
-| 6    | 29 Sept          | Inheritance (contd.)                      | Hands-on activity (continued)                                                        |
-| 7    | 6 Oct            | Exceptions, **Quiz 2**                    | Solve a task with and without exception handling                                     |
-| 8    | 13 Oct           | **Hands-on exam**                         |                                                                                        |
-| 9    | 20 Oct           | Collections                               | Apply data structures using collections and perform code profiling                   |
-| 10   | 27 Oct           | GUI                                       | Create user interfaces using `JFrame` and Swing components                           |
-| 11   | 3 Nov            | GUI (contd.), **Quiz 3**                  | Improve a seat reservation system using Swing                                        |
-| 12   | 10 Nov           | Searching and sorting                     | Apply and compare searching/sorting algorithms using Big-O notation                  |
-| 13   | 17 Nov           | Java database programming, **Quiz 4**     | Install MySQL, create database, write basic queries                                  |
-| —    | 24 Nov           | **Fall Break – No classes**               |                                                                                        |
-| 14   | 1 Dec            | Java DB programming (contd.) & Project    | Connect Java to MySQL using JDBC and write SQL in Java                               |
-| 15   | 8 Dec            | Project (contd.)                          | Apply GUI, data structures, and database skills to build a complete application      |
-| 16   | 15 Dec           | **Final Exam**                            |                                                                                        |
+|------|------------------|--------------------------------------------|--------------------------------------------------------------------------------------|
+| 1    | 25 Aug           | Java language review                       | Apply arrays, loops, data types, and methods                                         |
+| 2    | 1 Sept           | Objects and classes                        | Write code based on OOP principles                                                   |
+| 3    | 8 Sept           | Memory management                          | Dissect code and identify how stacks, heaps, and garbage collection are utilized     |
+| 4    | 15 Sept          | Input and output, **Quiz 1**               | Perform input/output operations on a text file using Java                            |
+| 5    | 22 Sept          | Inheritance                                | Demonstrate inheritance concepts, solve tasks, and identify proper use cases         |
+| 6    | 29 Sept          | Inheritance (contd.)                       | Hands-on activity (continued)                                                        |
+| 7    | 6 Oct            | Exceptions, **Quiz 2**                     | Solve a task with and without exception handling                                     |
+| 8    | 13 Oct           | **Hands-on exam**                          |                                                                                        |
+| 9    | 20 Oct           | Collections                                | Apply data structures using collections and perform code profiling                   |
+| 10   | 27 Oct           | GUI                                        | Create user interfaces using `JFrame` and Swing components                           |
+| 11   | 3 Nov            | GUI (contd.), **Quiz 3**                   | Improve a seat reservation system using Swing                                        |
+| 12   | 10 Nov           | Searching and sorting                      | Apply and compare searching/sorting algorithms using Big-O notation                  |
+| 13   | 17 Nov           | Java DB programming, **Quiz 4**            | Install MySQL, create database, write basic queries                                  |
+| —    | 24 Nov           | **Fall Break – No classes**                |                                                                                        |
+| 14   | 1 Dec            | Java DB programming (contd.) & Project     | Connect Java to MySQL using JDBC and write SQL in Java                               |
+| 15   | 8 Dec            | Project (contd.)                           | Apply GUI, data structures, and database skills to build a complete application      |
+| 16   | 15 Dec           | **Final Exam**                             |                                                                                        |
 
 
 ## Textbook
