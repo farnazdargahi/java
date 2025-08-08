@@ -101,20 +101,20 @@ The late work is deducted 25% when submitted within 24 hours past the due date. 
 
 ## Attendance & Absences
 
-Regular attendance in **in-person classes** is required. Failure to attend may result in being dropped or withdrawn from the course.
+Regular attendance in in-person classes is required. Failure to attend may result in being dropped or withdrawn from the course.
 
 - Students are responsible for officially dropping any class they no longer attend or participate in.  
 - Instructor may withdraw students after the add/drop deadline due to excessive absences.  
-- Students who are absent during the **first two weeks** of the course may be dropped by the instructor.  
-- Students who remain enrolled beyond the official **withdrawal deadline** (as listed in the class schedule) will receive a final evaluative letter grade: **A, B, C, D, F, P, or NP**.
+- Students who are absent during the first two weeks of the course may be dropped by the instructor.  
+- Students who remain enrolled beyond the official withdrawal deadline (as listed in the class schedule) will receive a final evaluative letter grade: A, B, C, D, F, P, or NP.
 
 
 
 ## Accommodating Students with Accessibility Needs
 
-Students with accessibility needs who may require academic accommodations are encouraged to contact me **as early as possible**. We will work together with the **Disability Support Programs and Services (DSPS)** office to arrange the appropriate accommodations for this course.
+Students with accessibility needs who may require academic accommodations are encouraged to contact me as early as possible. We will work together with the **Disability Support Programs and Services (DSPS)** office to arrange the appropriate accommodations for this course.
 
-> **DSPS Contact Information:**  
+> DSPS Contact Information:  
 > Location: K1 Student Services Building, Room K1-204  
 > Phone: (619) 388-7312  
 > Email: [miradsps@sdccd.edu](mailto:miradsps@sdccd.edu)  
@@ -122,14 +122,15 @@ Students with accessibility needs who may require academic accommodations are en
 
 To register or learn more about DSPS services, please visit their website or contact them directly.
 
+## Honest Academic Conduct Policy
 
-## [Undocumented & Immigrant Student Services](https://github.com/d-khan/sdccd/blob/main/undocumented-immigration.md)
+Students are expected to maintain honesty and integrity at all times in pursuit of their academic goals. Any violation of the Honest Academic Conduct policy (Administrative Procedure 3100.3) will result in serious consequences.
 
-## [Cheating/Plagiarism](https://github.com/d-khan/sdccd/blob/main/cheating.md)
+- A student found to have violated academic honesty may receive a **zero** on the related assignment, quiz, or exam.
+- The incident may also be referred for disciplinary action under Administrative Procedure 5520 – Student Disciplinary Procedures.
 
-## [Honest Academic Conduct](https://github.com/d-khan/sdccd/blob/main/honest-academic.md)
+The full Honest Academic Conduct policy is available in Board Policy BP 5500 and can be accessed here:  
+[Honest Academic Conduct – AP 3100.3 (PDF)](https://www.sdccd.edu/docs/District/procedures/Student%20Services/AP%203100_03.pdf)
 
-## [Sustainability](https://github.com/d-khan/sdccd/blob/main/sustainability.md) 
 
-____
-Last updated on Jan 2025
+
