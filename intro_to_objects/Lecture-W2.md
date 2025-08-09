@@ -22,7 +22,7 @@ Benefits include:
 - Method: Functions inside a class that define the behavior of objects.
 - Access Modifier: Determines who can access fields/methods (public, private, protected).
 
-## Simple Car Class Example
+## Car Class Example
 Example of a simple class in Java:
 ```java
 public class Car {
@@ -45,7 +45,7 @@ myCar.drive();          // Call method
 ```
 This shows how to create an object, assign data, and call its methods.
 
-## Example
+## Example to Run
 ```java
 public class Car {
     // Fields (data)
