@@ -46,7 +46,12 @@ myCar.drive();          // Call method
 This shows how to create an object, assign data, and call its methods.
 
 ## Example to Run
+
+This example demonstrates a Java class (`Car`) and another class (`CarDemo`)
+
+## Car.java
 ```java
+// Car.java
 public class Car {
     // Fields (data)
     String color;
@@ -56,8 +61,13 @@ public class Car {
     void drive() {
         System.out.println(color + " car is driving at " + speed + " km/h.");
     }
+}
+```
 
-    // Main method to create and use a Car object
+## CarDemo.java
+```java
+// CarDemo.java
+public class CarDemo {
     public static void main(String[] args) {
         // Step 1: Create an object of Car
         Car myCar = new Car();
@@ -70,8 +80,12 @@ public class Car {
         myCar.drive();
     }
 }
-````
+```
 
+## Sample Output
+```
+Red car is driving at 50 km/h.
+```
 
 
 ## Constructors – Initializing Objects
