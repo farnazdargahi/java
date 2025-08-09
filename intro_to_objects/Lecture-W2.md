@@ -45,6 +45,35 @@ myCar.drive();          // Call method
 ```
 This shows how to create an object, assign data, and call its methods.
 
+## Example
+```java
+public class Car {
+    // Fields (data)
+    String color;
+    int speed;
+
+    // Method (behavior)
+    void drive() {
+        System.out.println(color + " car is driving at " + speed + " km/h.");
+    }
+
+    // Main method to create and use a Car object
+    public static void main(String[] args) {
+        // Step 1: Create an object of Car
+        Car myCar = new Car();
+
+        // Step 2: Set field values
+        myCar.color = "Red";
+        myCar.speed = 50;
+
+        // Step 3: Call method
+        myCar.drive();
+    }
+}
+````
+
+
+
 ## Constructors – Initializing Objects
 A constructor is a special method that runs when a new object is created.
 It has the same name as the class, has no return type, and is used to initialize fields.
