@@ -45,7 +45,7 @@ myCar.drive();          // Call method
 ```
 This shows how to create an object, assign data, and call its methods.
 
-### Example 1 to Run
+### Example- Car
 
 ```java
 // Car.java
@@ -82,7 +82,7 @@ public class CarDemo {
 Red car is driving at 50 km/h.
 ```
 
-### Example 2 to Run
+### Example- Restaurant 
 
 ```java
 // Restaurant.java
@@ -146,7 +146,7 @@ Seating Capacity: 80
 If you don’t write any constructor, Java provides a default no-argument constructor and initializes fields to their default values (e.g., 0, null, false).
 If you do define any constructor, Java does not generate the default no-arg constructor automatically—add it yourself if you still need it.
 
-### Example 3 to Run
+### Example
 ```java
 // Car.java
 public class Car {
@@ -183,8 +183,25 @@ public class CarDemo {
 Blue car is driving at 80 km/h.
 
 ```
+## Constructor Overloading
 
-### Example 4 to Run
+Constructor overloading means a class can have more than one constructor, but each must have a different parameter list (different number or types of parameters).
+It allows you to create objects in multiple ways, depending on what information you have at the time of creation.
+
+### Why Use Constructor Overloading?
+
+- Flexibility – You can create objects with full details or with just some details.
+- Code Readability – Different constructors make code more understandable.
+- Convenience – You don’t always have all data at object creation.
+
+### Rules for Constructor Overloading
+
+Constructors must have the same name as the class.
+They cannot have a return type (not even void).
+Parameter lists must be different (number or data types).
+The compiler decides which constructor to call based on arguments passed.
+
+### Example
 
 ```java
 // Restaurant.java
@@ -237,7 +254,6 @@ Central Deli -- 4
 Olive Grove (San Diego) -- 5
 
 ```
-
 
 ## Encapsulation – Protecting Data
 Encapsulation hides the internal state of an object and controls how data is accessed or modified.
