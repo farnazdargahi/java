@@ -77,7 +77,7 @@ public class CarDemo {
 }
 ```
 
-### Sample Output
+#### Sample Output
 ```
 Red car is driving at 50 km/h.
 ```
@@ -128,7 +128,7 @@ public class RestaurantDemo {
     }
 }
 ```
-### Sample Output
+#### Sample Output
 ```
 Ocean View at San Diego is now open!
 Restaurant Name: Ocean View
@@ -178,7 +178,7 @@ public class CarDemo {
     }
 }
 ```
-### Sample Output
+#### Sample Output
 ```
 Blue car is driving at 80 km/h.
 
@@ -248,7 +248,7 @@ public class RestaurantDemo {
     }
 }
 ```
-### Sample Output
+#### Sample Output
 ```
 Central Deli -- 4
 Olive Grove (San Diego) -- 5
@@ -262,66 +262,104 @@ It means wrapping the data (fields) and the code (methods) that operate on the d
 
 To achieve encapsulation in Java:
 - Define fields as private so they cannot be accessed or modified directly from outside the class.
-- Provide public methods to control how the fields are accessed or changed.
--     Mutators (Setters) → change values in a controlled way.
--     Accessors (Getters) → read values safely.
+- Provide public methods to control how the fields are accessed or changed:
+     - Mutators (Setters) → set values in a controlled way.
+     - Accessors (Getters) → read values safely.
 
 By doing this, you protect the object’s internal state, enforce business rules, and make your code easier to maintain and use.
 
-## Mutators and Accessors
-- Mutator (setter): Changes a field value, often with validation.
-- Accessor (getter): Retrieves a field value.
-Example with validation:
+### Example- person
 ```java
-public void setSpeed(int s) {
-    if (s >= 0) {
-        speed = s;
-    }
-}
-public int getSpeed() {
-    return speed;
-}
-```
+// Person.java
+public class Person {
+    // Private field (encapsulation)
+    private String name;
 
-## Full Car Class Example
-Full example combining all concepts:
-```java
-public class Car {
-    private String color;
-    private int speed;
-
-    public Car(String c, int s) {
-        color = c;
-        speed = s;
+    // Setter (mutator) - sets the value
+    public void setName(String newName) {
+        name = newName;
     }
 
-    public void drive() {
-        System.out.println(color + " car is driving at " + speed + " km/h");
+    // Getter (accessor) - returns the value
+    public String getName() {
+        return name;
     }
-
-    public void accelerate(int increment) {
-        speed += increment;
-        System.out.println("Accelerated to " + speed + " km/h");
-    }
-
-    public void brake(int decrement) {
-        speed -= decrement;
-        if (speed < 0) speed = 0;
-        System.out.println("Slowed down to " + speed + " km/h");
-    }
-
-    public String getColor() { return color; }
-    public void setColor(String c) { color = c; }
 }
 ```
 
-## Using the Car Class
-Example usage:
 ```java
-Car myCar = new Car("Red", 50);
-myCar.drive();
-myCar.accelerate(20);
-myCar.brake(10);
+// PersonDemo.java
+public class PersonDemo {
+    public static void main(String[] args) {
+        Person p = new Person();
+
+        // Set the name using the setter
+        p.setName("Alice");
+
+        // Get the name using the getter
+        System.out.println("Name: " + p.getName());
+    }
+}
+```
+#### Sample Output:
+
+```java
+Name: Alice
+```
+### Example- Book
+
+```java
+// Book.java
+public class Book {
+    // Private fields
+    private String title;
+    private double price;
+
+    // Setter (mutator) for title
+    public void setTitle(String t) {
+        title = t;
+    }
+
+    // Getter (accessor) for title
+    public String getTitle() {
+        return title;
+    }
+
+    // Setter (mutator) for price
+    public void setPrice(double p) {
+        if (p >= 0) { // Simple validation
+            price = p;
+        } else {
+            price = 0;
+        }
+    }
+
+    // Getter (accessor) for price
+    public double getPrice() {
+        return price;
+    }
+}
+```
+```java
+// BookDemo.java
+public class BookDemo {
+    public static void main(String[] args) {
+        Book b = new Book();
+
+        // Set values
+        b.setTitle("Java Basics");
+        b.setPrice(29.99);
+
+        // Get and display values
+        System.out.println("Title: " + b.getTitle());
+        System.out.println("Price: $" + b.getPrice());
+    }
+}
+```
+#### Sample Output:
+```java
+Title: Java Basics
+Price: $29.99
 ```
 
 ## Summary
