@@ -136,6 +136,19 @@ Location: San Diego
 Seating Capacity: 80
 
 ```
+### Class activity 1: Creating a Simple Class
+
+Objective: Practice defining fields, constructors, and methods.
+
+Create a class Laptop with:
+- Two private fields: brand (String) and price (double).
+- A constructor that takes both values.
+- A method displayInfo() that prints brand and price.
+
+Create a LaptopDemo class to:
+- Create two Laptop objects with different data.
+- Call displayInfo() for both.
+
 
 ## Constructors 
 
