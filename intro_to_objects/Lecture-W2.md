@@ -45,7 +45,7 @@ myCar.drive();          // Call method
 ```
 This shows how to create an object, assign data, and call its methods.
 
-## Example 1 to Run
+### Example 1 to Run
 
 ```java
 // Car.java
@@ -82,7 +82,7 @@ public class CarDemo {
 Red car is driving at 50 km/h.
 ```
 
-## Example 2 to Run
+### Example 2 to Run
 
 ```java
 // Restaurant.java
@@ -137,21 +137,107 @@ Seating Capacity: 80
 
 ```
 
-## Constructors – Initializing Objects
-A constructor is a special method that runs when a new object is created.
-It has the same name as the class, has no return type, and is used to initialize fields.
-Example:
+## Constructors 
+
+- A constructor is a special method that runs when you create an object.
+- It has the same name as the class and no return type (not even void).
+- You use constructors to initialize fields so objects start in a valid state.
+
+If you don’t write any constructor, Java provides a default no-argument constructor and initializes fields to their default values (e.g., 0, null, false).
+If you do define any constructor, Java does not generate the default no-arg constructor automatically—add it yourself if you still need it.
+
+### Example 3 to Run
 ```java
+// Car.java
 public class Car {
-    String color;
-    int speed;
+    // Private fields (state)
+    private String color;
+    private int speed;
+
+    // Constructor (initializes both fields)
     public Car(String c, int s) {
         color = c;
         speed = s;
     }
+
+    // Method (behavior)
+    public void drive() {
+        System.out.println(color + " car is driving at " + speed + " km/h.");
+    }
 }
-Car myCar = new Car("Red", 50);
 ```
+```java
+// CarDemo.java
+public class CarDemo {
+    public static void main(String[] args) {
+        // Create a Car object using the constructor
+        Car myCar = new Car("Blue", 80);
+
+        // Call method
+        myCar.drive();
+    }
+}
+```
+### Sample Output
+```
+Blue car is driving at 80 km/h.
+
+```
+
+### Example 4 to Run
+
+```java
+// Restaurant.java
+public class Restaurant {
+    
+    String name;
+    int rating; 
+    String location;
+
+    // 1) Constructor with name and rating
+    public Restaurant(String restaurantName, int restaurantRating) {
+        name = restaurantName;
+        rating = restaurantRating;
+    }
+
+    // 2) Constructor with name, rating, and location
+    public Restaurant(String restaurantName, int restaurantRating, String restaurantLocation) {
+        name = restaurantName;
+        rating = restaurantRating;
+        location = restaurantLocation;
+    }
+
+    public void print() {
+    if (location != null && !location.isEmpty()) {
+        System.out.println(name + " (" + location + ") -- " + rating);
+    } else {
+        System.out.println(name + " -- " + rating);
+    }
+   }
+}
+
+```
+```java
+// RestaurantDemo.java
+public class RestaurantDemo {
+    public static void main(String[] args) {
+        // Using constructor with name and rating
+        Restaurant favLunchPlace = new Restaurant("Central Deli", 4);
+        favLunchPlace.print(); // Output: Central Deli -- 4
+
+        // Using constructor with name, rating, and location
+        Restaurant weekendSpot = new Restaurant("Olive Grove", 5, "San Diego");
+        weekendSpot.print(); // Output: Olive Grove (San Diego) -- 5
+    }
+}
+```
+### Sample Output
+```
+Central Deli -- 4
+Olive Grove (San Diego) -- 5
+
+```
+
 
 ## Encapsulation – Protecting Data
 Encapsulation hides the internal state of an object and controls how data is accessed or modified.
