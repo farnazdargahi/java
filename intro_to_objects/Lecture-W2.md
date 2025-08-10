@@ -45,11 +45,8 @@ myCar.drive();          // Call method
 ```
 This shows how to create an object, assign data, and call its methods.
 
-## Example to Run
+## Example 1 to Run
 
-This example demonstrates a Java class (`Car`) and another class (`CarDemo`)
-
-## Car.java
 ```java
 // Car.java
 public class Car {
@@ -64,9 +61,7 @@ public class Car {
 }
 ```
 
-## CarDemo.java
 ```java
-// CarDemo.java
 public class CarDemo {
     public static void main(String[] args) {
         // Step 1: Create an object of Car
@@ -82,11 +77,65 @@ public class CarDemo {
 }
 ```
 
-## Sample Output
+### Sample Output
 ```
 Red car is driving at 50 km/h.
 ```
 
+## Example 2 to Run
+
+```java
+// Restaurant.java
+public class Restaurant {
+    // Private fields (data)
+    private String name;
+    private String location;
+    private int seatingCapacity;
+
+    // Public method to set restaurant details
+    public void setDetails(String n, String loc, int capacity) {
+        name = n;
+        location = loc;
+        seatingCapacity = capacity;
+    }
+
+    // Public method to open the restaurant
+    public void openRestaurant() {
+        System.out.println(name + " at " + location + " is now open!");
+    }
+
+    // Public method to display details
+    public void displayInfo() {
+        System.out.println("Restaurant Name: " + name);
+        System.out.println("Location: " + location);
+        System.out.println("Seating Capacity: " + seatingCapacity);
+    }
+}
+```
+```java
+// RestaurantDemo.java
+public class RestaurantDemo {
+    public static void main(String[] args) {
+        // Step 1: Create a Restaurant object
+        Restaurant myRestaurant = new Restaurant();
+
+        // Step 2: Set the restaurant details
+        myRestaurant.setDetails("Ocean View", "San Diego", 80);
+
+        // Step 3: Call methods
+        myRestaurant.openRestaurant();
+        myRestaurant.displayInfo();
+    }
+}
+```
+### Sample Output
+```
+Ocean View at San Diego is now open!
+Restaurant Name: Ocean View
+Location: San Diego
+Seating Capacity: 80
+
+```
 
 ## Constructors – Initializing Objects
 A constructor is a special method that runs when a new object is created.
