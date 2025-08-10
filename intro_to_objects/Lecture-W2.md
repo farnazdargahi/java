@@ -136,18 +136,27 @@ Location: San Diego
 Seating Capacity: 80
 
 ```
-### Class activity 1: Creating a Simple Class
+### Activity 1 – Creating and Using an Object
+1- Copy the following code into a file called Laptop.java:
 
-Objective: Practice defining fields, constructors, and methods.
+```java
+public class Laptop {
+    String brand;
+    int ramSize; // in GB
 
-Create a class Laptop with:
-- Two private fields: brand (String) and price (double).
-- A constructor that takes both values.
-- A method displayInfo() that prints brand and price.
+    void displaySpecs() {
+        System.out.println("Brand: " + brand + ", RAM: " + ramSize + " GB");
+    }
+}
+```
+2- Create a new file called LaptopDemo.java and do the following:
+    - Create two Laptop objects.
+    - Set different values for brand and ramSize for each laptop.
+    - Call displaySpecs() for each laptop to print their details.
 
-Create a LaptopDemo class to:
-- Create two Laptop objects with different data.
-- Call displayInfo() for both.
+3- Bonus Challenge:
+- Add a new method inside Laptop called upgradeRam(int extraGB) that increases ramSize by the given amount.
+- Test it by upgrading one of your laptop’s RAM and printing the details again.
 
 
 ## Constructors 
@@ -196,6 +205,32 @@ public class CarDemo {
 Blue car is driving at 80 km/h.
 
 ```
+### Activity 2 – Constructors
+
+1. Copy this code into `Movie.java`:
+    ```java
+    public class Movie {
+        String title;
+        int duration; // in minutes
+
+        void printDetails() {
+            System.out.println(title + " - " + duration + " minutes");
+        }
+    }
+    ```
+
+2. Modify the class:
+    - Add a constructor that takes two parameters (`String t`, `int d`) and sets `title` and `duration`.
+
+3. Create a `MovieDemo.java` file:
+    - Create two Movie objects using the constructor.
+    - Call `printDetails()` for both objects to display their details.
+
+4. Bonus Challenge:
+    - Add another constructor that only takes a `String title` and sets `duration` to a default value of `90`.
+    - Test it by creating a movie with just the title.
+
+
 ## Constructor Overloading
 
 Constructor overloading means a class can have more than one constructor, but each must have a different parameter list (different number or types of parameters).
@@ -267,6 +302,39 @@ Central Deli -- 4
 Olive Grove (San Diego) -- 5
 
 ```
+
+### Activity 3 – Constructor Overloading
+
+1. Copy this code into `Course.java`:
+    ```java
+    public class Course {
+        String courseName;
+        int credits;
+        String instructor;
+
+        public Course(String name, int c) {
+            courseName = name;
+            credits = c;
+        }
+
+        public void printCourse() {
+            System.out.println(courseName + " (" + credits + " credits), Instructor: " + instructor);
+        }
+    }
+    ```
+
+2. Modify the class:
+    - Add a second constructor that takes all three parameters: `String name`, `int c`, `String inst`.
+    - Set all fields in this constructor.
+
+3. Create `CourseDemo.java`:
+    - Create one object using the 2-parameter constructor and set the instructor name manually.
+    - Create another object using the 3-parameter constructor.
+    - Call `printCourse()` for both objects.
+
+4. Bonus Challenge:
+    - Add validation in the constructors so `credits` cannot be less than `1`. If it is, set it to `1`.
+
 
 ## Encapsulation – Protecting Data
 
@@ -374,6 +442,36 @@ public class BookDemo {
 Title: Java Basics
 Price: $29.99
 ```
+### Activity 4 – Encapsulation (Protecting Data)
+
+1. Copy this code into `BankAccount.java`:
+    ```java
+    public class BankAccount {
+        private String accountHolder;
+        private double balance;
+
+        public void deposit(double amount) {
+            balance += amount;
+        }
+
+        public void printBalance() {
+            System.out.println(accountHolder + "'s Balance: $" + balance);
+        }
+    }
+    ```
+
+2. Modify the class:
+    - Add a setter method `setAccountHolder(String name)` to set the account holder name.
+    - Add a getter method `getBalance()` that returns the balance.
+
+3. Create `BankAccountDemo.java`:
+    - Create a bank account object.
+    - Set the account holder name using the setter.
+    - Deposit some money using the `deposit()` method.
+    - Print the balance using `printBalance()` and also display it using the getter.
+
+4. Bonus Challenge:
+    - Add a `withdraw(double amount)` method that only allows withdrawing if there’s enough balance, otherwise print `"Insufficient funds"`.
 
 ## Summary
 - Class = blueprint, Object = instance.
