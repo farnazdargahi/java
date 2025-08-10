@@ -256,14 +256,17 @@ Olive Grove (San Diego) -- 5
 ```
 
 ## Encapsulation – Protecting Data
-Encapsulation hides the internal state of an object and controls how data is accessed or modified.
-Fields are marked private, and public getter and setter methods are provided for access.
-Example:
-```java
-private String color;
-public void setColor(String c) { color = c; }
-public String getColor() { return color; }
-```
+
+Encapsulation is one of the core principles of Object-Oriented Programming (OOP).
+It means wrapping the data (fields) and the code (methods) that operate on the data into a single unit — a class — and restricting direct access to the data.
+
+To achieve encapsulation in Java:
+- Define fields as private so they cannot be accessed or modified directly from outside the class.
+- Provide public methods to control how the fields are accessed or changed.
+-     Mutators (Setters) → change values in a controlled way.
+-     Accessors (Getters) → read values safely.
+
+By doing this, you protect the object’s internal state, enforce business rules, and make your code easier to maintain and use.
 
 ## Mutators and Accessors
 - Mutator (setter): Changes a field value, often with validation.
