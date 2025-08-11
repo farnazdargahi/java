@@ -1,4 +1,6 @@
 # Introduction to memory management
+
+## ArrayList
 An ArrayList stores a list of items in contiguous memory locations, which enables immediate access to any element at index i of ArrayList v by using the get() and set() methods — the program just adds i to the starting address of the first element in v to arrive at the element. The methods add(objRef) and add(i, objRef) append and insert items into an ArrayList, respectively. Now recall that inserting an item at locations other than the end of the ArrayList requires making room by shifting higher-indexed items. Similarly, removing (via the remove(i) method) an item requires shifting higher-indexed items to fill the gap. Each shift of an item from one element to another element requires a few processor instructions. This issue exposes the ArrayList add/remove performance problem.
 
 For ArrayLists with thousands of elements, a single call to add() or remove() can require thousands of instructions, so if a program does many insert or remove operations on large ArrayLists, the program may run very slowly. 
@@ -200,7 +202,9 @@ In order to determine which allocated objects the program is currently using at 
 
 A programmer does not explicitly have to set a reference variable to null in order to indicate that the variable no longer refers to an object. The Java virtual machine can automatically infer a null reference once the variable goes out of scope — i.e., the reference variable is no longer visible to the program. For example, local reference variables that are declared within a method go out of scope as soon as the method returns. The Java virtual machine decrements the reference counts associated with the objects referred to by any local variables within the method.
 
-<img width="661" alt="image" src="https://user-images.githubusercontent.com/11669149/218629353-92d38d40-605b-431e-82c3-bf1eb6d01132.png">
+
+<img width="661" height="325" alt="218629353-92d38d40-605b-431e-82c3-bf1eb6d01132" src="https://github.com/user-attachments/assets/3e2632e5-d6d2-43dd-8c19-fbdacae7f5e0" />
+
 <img width="662" alt="image" src="https://user-images.githubusercontent.com/11669149/218633526-53d80896-a290-4209-bc1f-2978bea220c7.png">
 <img width="659" alt="image" src="https://user-images.githubusercontent.com/11669149/218633966-ffaf1f74-55fa-4b08-a47b-362bc959f187.png">
 
