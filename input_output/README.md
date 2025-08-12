@@ -47,27 +47,7 @@ public class IO {
 ```
 ### throws clause exception
 A throws clause tells the Java virtual machine that the corresponding method may exit unexpectedly due to an exception, which is an event that disrupts a program's execution. This topic is covered separately in a difference lecture.
-
----
-### Example: Reading an integer 
-
-```java
-import java.util.Scanner;
-public class ReadIntegerExample {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); // Create a Scanner object
-
-        System.out.print("Enter an integer: ");
-        int number = scanner.nextInt(); // Reads an integer directly
-
-        System.out.println("You entered: " + number);
-
-        scanner.close(); // Close the scanner to avoid resource leaks
-    }
-}
-```
 ___
-
 
 # Output formatting
 
@@ -144,6 +124,7 @@ ___
 
 ### Concept check!! (Please work in a group - 2 members per group)
 Improvise the above code and perform the following:   
+
 __a. Include the middle name; and if the middle name is missing, the middle name shows NA__ (Discuss with your group member how to design before starting to code)  
 
 __b. Your job is to validate the credit card of a financial institution.__ For example, if a user enters 123a 111 111 222, your code should spot an error because the alphabets are invalid. (Please talk with your group member about how to design before starting to code). For simplicity, you can check for a non-numeric credit card number and a valid BIN.
