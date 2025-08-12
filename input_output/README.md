@@ -45,14 +45,29 @@ public class IO {
     }
 }
 ```
+### throws clause exception
+A throws clause tells the Java virtual machine that the corresponding method may exit unexpectedly due to an exception, which is an event that disrupts a program's execution. This topic is covered separately in a difference lecture.
 
+---
+### Example: Reading an integer 
+
+```java
+import java.util.Scanner;
+public class ReadIntegerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in); // Create a Scanner object
+
+        System.out.print("Enter an integer: ");
+        int number = scanner.nextInt(); // Reads an integer directly
+
+        System.out.println("You entered: " + number);
+
+        scanner.close(); // Close the scanner to avoid resource leaks
+    }
+}
+```
 ___
 
-## byte stream
-A byte stream is used by programs to input or output 8-bits (a byte).
-
-## throws clause / exception
-A throws clause tells the Java virtual machine that the corresponding method may exit unexpectedly due to an exception, which is an event that disrupts a program's execution. This topic is covered separately in a difference lecture.
 
 # Output formatting
 
@@ -69,26 +84,27 @@ A format specifier specifies the type of value to print in its place.
 
 <img width="661" alt="image" src="https://user-images.githubusercontent.com/11669149/219933257-a82b0bf0-daa1-4d95-aa0b-84f13f581a95.png">
 
-## sub-specifier
-A sub-specifier provides formatting options for a format specifier and are included between the % and format specifier character.
+#### Example: different format specifiers 
+```java
 
-__%(flags)(width)(.precision)specifier__
+public class FormatSpecifierExample {
+    public static void main(String[] args) {
+        int intValue = 42;
+        double doubleValue = 3.14159;
+        String stringValue = "Java";
+        char charValue = 'A';
+        boolean boolValue = true;
 
-<img width="969" alt="image" src="https://user-images.githubusercontent.com/11669149/219933421-943130d7-bb14-4635-8039-cee218fd82b2.png">
-
-## Flushing output
-- The PrintStream method ```flush()``` flushes the stream's buffer contents.
-- To preserve resources, the system may wait until the buffer is full, or at least has a certain number of characters before moving them to the output device. 
-- The PrintStream method ```flush()``` flushes the stream's buffer contents. Ex: The statement ```System.out.flush()```; writes the contents of the buffer for System.out to the computer screen. Most Java implementations make System.out flush when a newline character is output or ```println()``` method is called.
-
-__Indicate if the line of output is immediately flushed from the System.out buffer.__
-```Java
-System.out.print("All the world's a stage ");  // A
-System.out.println("And all the men and women merely players;");         // B
-System.out.print("They have their exits and their entrances, ");            // C
-System.out.flush();
-System.out.print("And one man in his time plays many parts,");   // D
+        System.out.printf("Integer: %d%n", intValue);
+        System.out.printf("Floating-point: %f%n", doubleValue);
+        System.out.printf("String: %s%n", stringValue);
+        System.out.printf("Character: %c%n", charValue);
+        System.out.printf("Boolean: %b%n", boolValue);
+        
+    }
+}
 ```
+
 
 # Streams using Strings
 Sometimes a programmer wishes to read input data from a string rather than from the keyboard (standard input).
