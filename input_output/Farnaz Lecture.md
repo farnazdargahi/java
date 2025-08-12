@@ -29,7 +29,9 @@ public class ConsoleInputExample {
 }
 
 ```
-<img width="1589" height="227" alt="output (3)" src="https://github.com/user-attachments/assets/b7ca5125-f340-427e-a2a9-3213bc8df205" />
+<img width="1589" height="227" alt="476844866-b7ca5125-f340-427e-a2a9-3213bc8df205" src="https://github.com/user-attachments/assets/f9f4f720-76e5-44d2-be0f-1abaab63db30" />
+
+
 
 
 ### b) From File (using FileInputStream)
@@ -59,7 +61,8 @@ public class FileInputExample {
 }
 
 ```
-<img width="1589" height="185" alt="output (10)" src="https://github.com/user-attachments/assets/65000ad8-8eb9-43e4-ba62-0dfc23f4a019" />
+<img width="1589" height="185" alt="476849556-65000ad8-8eb9-43e4-ba62-0dfc23f4a019" src="https://github.com/user-attachments/assets/0a4686f3-d593-4f37-80f1-74b1d60b27a6" />
+
 
 ---
 
@@ -88,7 +91,8 @@ public class OutputExample {
 }
 
 ```
-<img width="1637" height="218" alt="output (12)" src="https://github.com/user-attachments/assets/f664dc2c-e50e-4a12-b325-554d3691e5be" />
+
+<img width="1637" height="218" alt="476851090-f664dc2c-e50e-4a12-b325-554d3691e5be" src="https://github.com/user-attachments/assets/aae5a2f1-be8e-42f2-a570-0a740b8f7644" />
 
 
 ### b) To File (using FileOutputStream)
@@ -124,8 +128,7 @@ public class FileOutputExample {
 }
 
 ```
-- `FileOutputStream` → Sends bytes to a file.  
-- `PrintWriter` wraps it for easy text writing.
+<img width="507" height="59" alt="writing_to_file_pipeline" src="https://github.com/user-attachments/assets/2eba0035-7c3f-4d55-b7b1-bba129512665" />
 
 ---
 
@@ -134,8 +137,6 @@ public class FileOutputExample {
 | **Source/Destination** | **Class/Method**                           | **Purpose** |
 |------------------------|--------------------------------------------|-------------|
 | Console Input          | `Scanner(System.in)`                       | Read from keyboard |
-| Memory Input           | `Scanner(String)`                          | Parse string |
 | File Input             | `Scanner(new FileInputStream("file"))`     | Read from file |
 | Screen Output          | `System.out.println()`                     | Print to console |
-| Memory Output          | `PrintWriter → StringWriter`               | Store text in memory |
 | File Output            | `PrintWriter(new FileOutputStream("file"))`| Save text to file |
